@@ -22,7 +22,7 @@ load_dotenv()
 bot_token = 5859112504:AAHt4d4fM0Io_W2qNmOfaaC7sOMlvHzVXIc
 workers = 4
 api = 22081348
-hash = 7a1eb62cae23b3de0ebbc2756f000f6a
+hash = os.environ.get('API_HASH')
 chnnl = https://t.me/alamort1
 BOT_URL = akrsaves_bot
 app = Client("akr", bot_token=bot_token, api_id=api, api_hash=hash, workers=workers)
